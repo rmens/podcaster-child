@@ -1,0 +1,18 @@
+/*
+Theme Name:     Podcaster Child Theme
+Description:    Child theme for the Podcaster theme
+Author:         Theme Station Team
+Template:       podcaster
+*/
+
+@import url("../podcaster/style.css");
+
+/* This is your child theme css file. Do not edit anything above this line. Write all your custom css declarations below this line. 
+ * You might have to use "!important" to override some settings. To find out more about WordPress child themes please visit 
+ * http://codex.wordpress.org/Child_Themes */
+
+.latest-episode .audio_player,
+.latest-episode .powerpress_player {padding:0px 0 0px 0;}
+.latest-episode .main-featured-post .mini-title {color:#ffffff!important;}
+.latest-episode .next-week .mini-title {color:#ffffff!important;}
+.single .single-featured span.mini-title {color:#ffffff!important;}
