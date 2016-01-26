@@ -107,7 +107,7 @@ get_header(); ?>
 
 								   	$get_classes = get_post_class();
 									$classes = implode(' ', $get_classes); ?>
-									<div class="inside-container col-lg-12 col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+									<div class="inside-container col-xxs-12">
 								   	<article class="<?php echo $classes; ?> list">
 								   		<div class="featured-image">
 								   			<a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail($id, 'square'); ?></a>
@@ -161,7 +161,7 @@ get_header(); ?>
 						            $get_classes = get_post_class();
 									$classes = implode(' ', $get_classes);
 									$categories = get_the_category(); ?>			
-									<div class="inside-container col-lg-12 col-md-3 col-sm-4 col-xs-6 col-xxs-12">	
+									<div class="inside-container col-xxs-12">	
 									<article class="<?php echo $classes; ?> list">
 										<div class="featured-image">
 											<a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail( $post->ID, "square"); ?></a>
@@ -224,7 +224,7 @@ get_header(); ?>
 									$categories = get_the_category();
 
 				            		?>
-				            		<div class="inside-container col-lg-12 col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+				            		<div class="inside-container col-xxs-12">
 						   			<article class="<?php echo $classes; ?> list">
 						   				<div class="featured-image">
 						   				<a href="<?php echo get_permalink(); ?>"><?php echo get_the_post_thumbnail( $post->ID, 'square' ); ?></a>
