@@ -11,8 +11,56 @@ Template:       podcaster
  * You might have to use "!important" to override some settings. To find out more about WordPress child themes please visit 
  * http://codex.wordpress.org/Child_Themes */
 
-.latest-episode .audio_player,
-.latest-episode .powerpress_player {padding:0px 0 0px 0;}
+/* Kleuren speler voorpagina */
 .latest-episode .main-featured-post .mini-title {color:#ffffff!important;}
 .latest-episode .next-week .mini-title {color:#ffffff!important;}
 .single .single-featured span.mini-title {color:#ffffff!important;}
+
+/* Dubbele more-link bij handmatig gebruiken --more-- tag */
+.blog .post .more-link {display: none!important;}
+
+/* CAPS LOCK DAY YAY */
+.body {text-transform: uppercase;}
+
+/* Kleur single podcast */
+.single .single-featured span.mini-title {color:#1b7cc1!important;}
+
+/* Compactere single */
+.single .single-featured .background {padding: 20px 0 20px 0;}
+.single .thst-main-posts {padding: 48px 0;}
+.single .single-featured h2 {margin: 0px 0 0px 0;}
+footer .footer-widgets {padding-top: 30px; padding-bottom: 30px;}
+.footer-inner {height: 50px; line-height: 50px;}
+.closed-comments {padding: 0 0 0 0;}
+
+/* Grotere download header */
+h6.download-heading {font-size: 36px!important;}
+
+/* Fix social size */
+.social_icon {font-family: FontAwesome;
+color: #fff;
+/* height: 39px; */
+/* width: 49px !important; */
+/* line-height: 24px; */
+font-size: 24px;
+font-style: normal;
+font-weight: normal;
+/* line-height: 1; */}
+
+.social_icon:before {font-family: FontAwesome;
+display: inline-block;
+font-size: 18px;
+line-height: 25px;
+width: 45px;
+text-align: center;
+font-style: normal;
+font-weight: normal;
+/* padding: 10px; */
+color: #fff;
+background: #bbb;
+border-radius: 3px;
+margin-bottom: 5px;
+transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-webkit-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
